@@ -1,7 +1,7 @@
-<?php
-    checkLogin();
-    include('../admin/inc/functions.php');
-?>
+<!-- <?php
+    // checkLogin();
+   // include('../admin/inc/functions.php');
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +29,7 @@
       </div>
     </div>
     <?php 
-      $connect = mysqli_connect('localhost', 'root', 'root', 'HTTP5225');
+      $connect = mysqli_connect('localhost', 'root', '', 'http5225');
       if(!$connect){
         die("Connection Failed: " . mysqli_connect_error());
       }
