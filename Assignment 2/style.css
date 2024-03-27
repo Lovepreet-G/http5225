@@ -1,0 +1,15 @@
+body {
+    
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.btn-container {
+    text-align: center;
+}
+.logout-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999; /* Ensures it's above other content */
+}
